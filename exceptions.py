@@ -1,0 +1,2 @@
+class BreakerException(Exception):
+    pass
