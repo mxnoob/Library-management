@@ -37,7 +37,7 @@ def delete_book() -> None:
 
 def search_book() -> None:
     """Обработчик команды поиска книги."""
-    book = current_library.search_books(
+    book = current_library.search_book(
         get_str_input("Введите название книги, автора или год издания книги: ")
     )
     if book:
